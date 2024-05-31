@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div
       className="container-fluid d-flex justify-content-center align-items-center"
-      style={{ height: "100vh", padding: "50px" }}
+      style={{ padding: "50px" }}
     >
       <div className="row align-items-center">
         <div className="col-md-6">
