@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import HomePageImage from "../assets/Logo/HomePageImage.png";
+import NusaLmsBanner from "../assets/Logo/NusaLmsBanner.png";
 
 const CourseRekomendasi = () => {
   return (
@@ -10,16 +10,15 @@ const CourseRekomendasi = () => {
           <p
             className="fw-semibold"
             style={{
-              width: "106px",
+              width: "200px",
               height: "27px",
               fontFamily: "Poppins",
               fontSize: "18px",
               textAlign: "left",
-              opacity: "100",
               color: "#FF4048",
             }}
           >
-            Alur Belajar
+            Course Rekomendasi
           </p>
           <h2
             className="fw-semibold"
@@ -29,10 +28,9 @@ const CourseRekomendasi = () => {
               fontFamily: "Poppins",
               fontSize: "34px",
               textAlign: "left",
-              opacity: "100",
             }}
           >
-            Pelajari Materi Sesuai Arahan Belajar
+            Cari Kelas Berdasarkan Rekomendasi Kami
           </h2>
         </div>
         <div className="row mt-4">
@@ -48,10 +46,10 @@ const CourseRekomendasi = () => {
         <div className="col-md-3">
           <div className="card">
             <img
-              src={HomePageImage}
+              src={NusaLmsBanner}
               alt="Home Page"
               className="card-img-top"
-              style={{ height: "300px", objectFit: "cover" }}
+              style={{ height: "200px", objectFit: "cover" }}
             />
             <div className="card-body">
               <h5 className="card-title">Judul Card 1</h5>
@@ -64,10 +62,10 @@ const CourseRekomendasi = () => {
         <div className="col-md-3">
           <div className="card">
             <img
-              src={HomePageImage}
+              src={NusaLmsBanner}
               alt="Home Page"
               className="card-img-top"
-              style={{ height: "300px", objectFit: "cover" }}
+              style={{ height: "200px", objectFit: "cover" }}
             />
             <div className="card-body">
               <h5 className="card-title">Judul Card 2</h5>
@@ -80,10 +78,10 @@ const CourseRekomendasi = () => {
         <div className="col-md-3">
           <div className="card">
             <img
-              src={HomePageImage}
+              src={NusaLmsBanner}
               alt="Home Page"
               className="card-img-top"
-              style={{ height: "300px", objectFit: "cover" }}
+              style={{ height: "200px", objectFit: "cover" }}
             />
             <div className="card-body">
               <h5 className="card-title">Judul Card 3</h5>
@@ -96,10 +94,10 @@ const CourseRekomendasi = () => {
         <div className="col-md-3">
           <div className="card">
             <img
-              src={HomePageImage}
+              src={NusaLmsBanner}
               alt="Home Page"
               className="card-img-top"
-              style={{ height: "300px", objectFit: "cover" }}
+              style={{ height: "200px", objectFit: "cover" }}
             />
             <div className="card-body">
               <h5 className="card-title">Judul Card 4</h5>
