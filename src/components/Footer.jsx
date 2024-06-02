@@ -28,7 +28,11 @@ const Footer = () => {
           gap: "40px",
         }}
       >
-        <img src={Logo} alt="Brand Logo" />
+        <img
+          src={Logo}
+          alt="Brand Logo"
+          style={{ width: "128px", height: "30px" }}
+        />
         <div>
           <p>Copyright © Nusantech</p>
           <p>All Rights Reserved</p>
@@ -85,7 +89,13 @@ const Footer = () => {
           width: "659px",
         }}
       >
-        <div style={{ display: "flex", flexDirection: "column", gap: "30px" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-start",
+          }}
+        >
           <h5>Perusahaan</h5>
           <button className="btn">Tentang Kami</button>
           <button className="btn">Blog</button>
@@ -93,14 +103,26 @@ const Footer = () => {
           <button className="btn">Testimoni</button>
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: "30px" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-start",
+          }}
+        >
           <h5>Dukungan</h5>
           <button className="btn">Pusat Bantuan</button>
           <button className="btn">Syarat & Ketentuan</button>
           <button className="btn">Cek Sertifikat</button>
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: "30px" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-start",
+          }}
+        >
           <h5>Download NusaLMS Mobile</h5>
           <button
             className="btn"

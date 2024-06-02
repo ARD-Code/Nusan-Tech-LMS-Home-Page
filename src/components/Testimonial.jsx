@@ -66,7 +66,7 @@ const LearningPath = () => {
       imageUrl: Customer1,
     },
     {
-      id: 4,
+      id: 5,
       name: "Siti Aminah",
       profession: "Content Creator",
       comment: "Beneficial and informative...",
@@ -76,7 +76,7 @@ const LearningPath = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="container pb-5 pt-5">
       <div className="row">
         <div className="col-12">
           <p
@@ -88,7 +88,7 @@ const LearningPath = () => {
               color: "#FF4048",
             }}
           >
-            Learning Path
+            Testimonial
           </p>
           <div className="d-flex justify-content-between align-items-center">
             <h2
@@ -99,7 +99,7 @@ const LearningPath = () => {
                 textAlign: "left",
               }}
             >
-              Learn Materials According to the Learning Path
+              Cerita Mereka yang Belajar Bersama Kami
             </h2>
             <div>
               <button

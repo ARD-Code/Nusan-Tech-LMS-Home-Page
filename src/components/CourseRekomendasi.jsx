@@ -4,8 +4,8 @@ import NusaLmsBanner from "../assets/Logo/NusaLmsBanner.png";
 
 const CourseRekomendasi = () => {
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container pb-5 pt-5">
+      <div className="row align-items-center">
         <div className="col-6">
           <p
             className="fw-semibold"
@@ -33,12 +33,25 @@ const CourseRekomendasi = () => {
             Cari Kelas Berdasarkan Rekomendasi Kami
           </h2>
         </div>
-        <div className="row mt-4">
-          <div className="col-md-12 d-flex justify-content-end">
-            <button className="btn btn-pill btn-outline-primary">
-              Lihat Semua Kelas
-            </button>
-          </div>
+        <div className="col-6 d-flex justify-content-end">
+          <button
+            className="btn btn-pill"
+            style={{
+              textDecoration: "none",
+              fontFamily: "Poppins",
+              fontSize: "16px",
+              fontWeight: "500",
+              lineHeight: "24px",
+              color: "#FF4048",
+              backgroundColor: "#FF40481A",
+              borderRadius: "50px",
+              padding: "10px 20px",
+              border: "none",
+              cursor: "pointer",
+            }}
+          >
+            Lihat Semua Kelas
+          </button>
         </div>
       </div>
 

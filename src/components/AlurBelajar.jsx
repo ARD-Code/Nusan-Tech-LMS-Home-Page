@@ -11,7 +11,7 @@ import ImagePlaceHolder8 from "../assets/Logo/Image8.png";
 
 const AlurBelajar = () => {
   return (
-    <div className="container">
+    <div className="container pb-5 pt-5">
       <div className="row">
         <div className="col-12">
           <p
