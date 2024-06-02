@@ -76,8 +76,8 @@ const MyNavbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#link2">
-                <button className="btn">Semua Materi</button>
+              <a className="nav-link" href="/SemuaCourse">
+                <button className="btn">Semua Course</button>
               </a>
             </li>
             <li className="nav-item">
