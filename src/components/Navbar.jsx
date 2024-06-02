@@ -50,7 +50,7 @@ const MyNavbar = () => {
       }}
     >
       <div className="container">
-        <a className="navbar-brand mx-auto" href="#home">
+        <a className="navbar-brand mx-auto" href="/">
           <img src={Logo} width="148" height="34" alt="Company logo" />
         </a>
         <div className="navbar-collapse justify-content-center">

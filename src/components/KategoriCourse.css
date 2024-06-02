@@ -1,0 +1,14 @@
+.page-box {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  margin: 0 5px;
+  min-width: 30px;
+  text-align: center;
+}
+
+.page-item.active .page-box {
+  background-color: #ff4048;
+  color: #fff;
+  border-color: #ff4048;
+}
